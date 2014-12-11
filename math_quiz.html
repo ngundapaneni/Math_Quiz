@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Simple Math Quiz for K-Prep</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/quiz_styles.css"></link>
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/quiz.js"></script>
+	</head>
+	<body>
+		<header>
+			<span id="header">Simple Math Quiz for K-PREP!</span>
+		</header>
+		<section id="center">
+			<div id="quizContainer">
+				<span style="font-family: Comic Sans MS; font-size: 20px; margin-left:10px">Answer simple math and collect a star for each correct answer</span><br/>
+				<span id="correctProgress">Stars collected: </span>
+				<span id="numberCorrect"></span>
+				<div id="fadeContainer">
+					<span style="color:green">Correct answer</span>
+				</div>
+				<div id="questionContainer">	
+					<span class="question"> 1) 2 + 3 = </span><br>
+					<div id="answerContainer">
+						<input type="radio" name="option" class="option" value="0"><span class="answer">6</span><br>
+						<input type="radio" name="option" class="option" value="1"><span class="answer">4</span><br>
+						<input type="radio" name="option" class="option" value="2"><span class="answer">5</span><br>
+						<input type="radio" name="option" class="option" value="3"><span class="answer">7</span><br>
+					</div>
+					<div id="submitContainer">
+						<input class="button" type="button" id="submit" value="Submit Answer">
+						<input class="button" type="button" id="retry" value="Retry Quiz">
+					</div>
+				</div>
+			</div>	
+		</section>
+	</body>
+</html>
