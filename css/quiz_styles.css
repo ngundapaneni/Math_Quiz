@@ -13,7 +13,7 @@ body {
 #quizContainer {
 	position: absolute;
 	display: block;
-	height: 400px;
+	height: 440px;
 	width: 600px;
 	margin-left: 300px;
 	margin-top: 50px;
@@ -36,13 +36,11 @@ body {
 
 #questionContainer {
 	margin: 30px 30px 30px 30px;
-	width: 400px;
-	height: 400px;
+	width: 600px;
 	font-size: 20px;
 }
 
 #answerContainer {
-	display: inline-block;
 	margin-left: 30px;
 	margin-top: 20px;
 	line-height: 35px;
@@ -54,10 +52,11 @@ body {
 }
 
 #fadeContainer {
-	margin-left: 30px;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 	visibility: hidden;
+	margin-left: 10px;
+	color:green;
 }
 
 .button {
